@@ -3,7 +3,6 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
-from sklearn.metrics import f1_score
 
 # Load the Iris dataset
 iris = datasets.load_iris()
@@ -28,6 +27,3 @@ accuracy = accuracy_score(y_test, y_pred)
 # Print the accuracy
 print ('Accuracy: ', accuracy*100)
 
-f1 = f1_score(y_test, y_pred, average='macro')
-
-print ('F1 Score: ', f1*100)
