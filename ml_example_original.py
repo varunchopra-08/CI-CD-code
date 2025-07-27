@@ -37,3 +37,5 @@ print(f'True Positives (Class 0): {cm[0,0]}')
 print(f'True Positives (Class 1): {cm[1,1]}')
 print(f'True Positives (Class 2): {cm[2,2]}')
 
+print('This is print statement from print branch')
+print('This is print statement from print branch')
